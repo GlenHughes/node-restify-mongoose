@@ -13,6 +13,7 @@ Open `.env-example` and enter your config details. Then save as `.env` in the ro
     MONGO_URL=ds147440.mlab.com // your databases generated URL from mongoose
     MONGO_PORT=47440 // your databases generated port from mongoose
     MONG_DB_NAME=customer_api // your mongoose database name
+    JWT_SECRET=SECRET // a unique string
 
 Then install the dependencies: `yarn`
 
